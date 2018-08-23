@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int b=sc.nextInt();
+        int e=sc.nextInt();;
+        int m=nextInt();
+       int total=1;
+       for(int i=1;i<=e;i++){
+           total=total*b;
+       }
+        System.out.print(total%m);
+    }
+}
+
+
